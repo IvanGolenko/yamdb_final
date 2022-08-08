@@ -1,5 +1,5 @@
 from django.contrib import admin
-from reviews.models import Title, Category, Genre
+from reviews.models import Genre, Category, Title
 from users.models import User
 
 
