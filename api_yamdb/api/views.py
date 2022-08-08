@@ -18,8 +18,8 @@ from .permissions import (IsAdmin, IsAdminModeratorOwnerOrReadOnly,
 from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, RegisterDataSerializer,
                           ReviewSerializer, TitleGetSerializer,
-                          TitleSerializer, TokenSerializer,
-                          UserEditSerializer, UserSerializer)
+                          TitleSerializer, TokenSerializer, UserEditSerializer,
+                          UserSerializer)
 
 
 class CategoryViewSet(mixins.CreateModelMixin, mixins.DestroyModelMixin,
