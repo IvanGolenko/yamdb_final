@@ -13,13 +13,13 @@ from reviews.models import Category, Genre, Review, Title
 from users.models import User
 
 from .filters import TitleFilter
-from .permissions import (IsAdmin, IsAdminOrReadOnly,
-                          IsAdminModeratorOwnerOrReadOnly)
-from .serializers import (GenreSerializer, TitleSerializer,
-                          ReviewSerializer, CommentSerializer,
-                          UserEditSerializer, UserSerializer,
-                          RegisterDataSerializer, TokenSerializer,
-                          CategorySerializer, TitleGetSerializer)
+from .permissions import (IsAdmin, IsAdminModeratorOwnerOrReadOnly,
+                          IsAdminOrReadOnly)
+from .serializers import (CategorySerializer, CommentSerializer,
+                          GenreSerializer, RegisterDataSerializer,
+                          ReviewSerializer, TitleGetSerializer,
+                          TitleSerializer, TokenSerializer,
+                          UserEditSerializer, UserSerializer)
 
 
 class CategoryViewSet(mixins.CreateModelMixin, mixins.DestroyModelMixin,
