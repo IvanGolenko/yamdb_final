@@ -1,15 +1,13 @@
 ![example workflow](https://github.com/IvanGolenko/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 # yamdb_final
-yamdb_final
-
 Описание проекта:
 ```
 Проект представляет из себя социальную сеть в которой можно оставлять отзывы на 
 фильмы, книги и музыку и ставить оценки.
 ```
 
-#Как запустить проект:
+# Как запустить проект:
 Клонировать репозиторий:
 ```
 git clone https://github.com/IvanGolenko/yamdb_final.git
@@ -64,14 +62,18 @@ scp docker-compose.yaml <username>@<host>/home/<username>/docker-compose.yaml
 scp default.conf <username>@<host>/home/<username>/nginx/default.conf
 ```
 
-Технологии которые использовались:
+Сервер и REDOC по API:
 ```
+Адрес приложения: http://{ваш IP}/api/v1/
+REDOC: http://{ваш IP}/redoc/
+```
+
+Технологии, которые использовались:
 - Python ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
 - Django ![Django](https://img.shields.io/badge/-Django-0aad48?style=flat-square&logo=Django)
 - Django REST Framework ![Django Rest Framework](https://img.shields.io/badge/DRF-red?style=flat-square&logo=Django)
 - PostgresSQL ![Postgresql](https://img.shields.io/badge/-Postgresql-%232c3e50?style=flat-square&logo=Postgresql)
 - Nginx ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white)
-```
 
 Автор:
 ```
