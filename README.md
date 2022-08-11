@@ -7,6 +7,12 @@
 фильмы, книги и музыку и ставить оценки.
 ```
 
+Развёрнутый проект и REDOC по API:
+```
+Адрес приложения: http://51.250.108.250/api/v1/
+REDOC: http://51.250.108.250/redoc/
+```
+
 # Как запустить проект:
 Клонировать репозиторий:
 ```
@@ -23,11 +29,6 @@ docker-compose up -d --build
 docker-compose exec web python manage.py migrate
 docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic
-```
-
-Загрузить дамп базы командой:
-```
-python manage.py loaddata fixtures/fixtures.json
 ```
 
 #### Работа на сервере:
@@ -60,12 +61,6 @@ sudo apt install docker.io docker-compose -y
 ```
 scp docker-compose.yaml <username>@<host>/home/<username>/docker-compose.yaml
 scp default.conf <username>@<host>/home/<username>/nginx/default.conf
-```
-
-Сервер и REDOC по API:
-```
-Адрес приложения: http://{ваш IP}/api/v1/
-REDOC: http://{ваш IP}/redoc/
 ```
 
 Технологии, которые использовались:
