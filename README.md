@@ -31,6 +31,11 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic
 ```
 
+Загрузить дамп базы командой: 
+```
+python manage.py loaddata fixtures/fixtures.json
+```
+
 #### Работа на сервере:
 
 Перед отправкой на боевой сервер добавьте в Secrets GitHub Actions следующие переменные окружения:
