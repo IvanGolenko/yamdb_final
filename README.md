@@ -33,7 +33,7 @@ docker-compose exec web python manage.py collectstatic
 
 Загрузить дамп базы командой: 
 ```
-python manage.py loaddata fixtures/fixtures.json
+python manage.py loaddata api_yamdb/fixtures.json
 ```
 
 #### Работа на сервере:
